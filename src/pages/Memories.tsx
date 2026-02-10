@@ -12,42 +12,42 @@ import photo7 from '../images/photo7.jpg';
 import photo8 from '../images/photo8.jpg';
 import photo9 from '../images/photo9.jpg';
 import photo10 from '../images/photo10.jpg';
-// import photo11 from '../images/photo11.png';
-// import photo12 from '../images/photo12.png';
-// import photo13 from '../images/photo13.png';
-// import photo14 from '../images/photo14.png';
-// import photo15 from '../images/photo15.png';
-// import photo16 from '../images/photo16.png';
-// import photo17 from '../images/photo17.png';
-// import photo18 from '../images/photo18.png';
-// import photo19 from '../images/photo19.png';
-// import photo20 from '../images/photo20.png';
-// import photo21 from '../images/photo21.png';
-// import photo22 from '../images/photo22.png';
-// import photo23 from '../images/photo23.png';
-// import photo24 from '../images/photo24.png';
-// import photo25 from '../images/photo25.png';
-// import photo26 from '../images/photo26.png';
-// import photo27 from '../images/photo27.png';
-// import photo28 from '../images/photo28.png';
-// import photo29 from '../images/photo29.png';
-// import photo30 from '../images/photo30.png';
-// import photo31 from '../images/photo31.png';
-// import photo32 from '../images/photo32.png';
-// import photo33 from '../images/photo33.png';
-// import photo34 from '../images/photo34.png';
-// import photo35 from '../images/photo35.png';
-// import photo36 from '../images/photo36.png';
-// import photo37 from '../images/photo37.png';
-// import photo38 from '../images/photo38.png';
-// import photo39 from '../images/photo39.png';
-// import photo40 from '../images/photo40.png';
+import photo11 from '../images/photo11.jpg';
+import photo12 from '../images/photo12.jpg';
+import photo13 from '../images/photo13.jpg';
+import photo14 from '../images/photo14.jpg';
+import photo15 from '../images/photo15.jpg';
+import photo16 from '../images/photo16.jpg';
+import photo17 from '../images/photo17.jpg';
+import photo18 from '../images/photo18.png';
+import photo19 from '../images/photo19.png';
+import photo20 from '../images/photo20.png';
+import photo21 from '../images/photo21.png';
+import photo22 from '../images/photo22.png';
+import photo23 from '../images/photo23.png';
+import photo24 from '../images/photo24.png';
+import photo25 from '../images/photo25.png';
+import photo26 from '../images/photo26.png';
+import photo27 from '../images/photo27.png';
+import photo28 from '../images/photo28.png';
+import photo29 from '../images/photo29.png';
+import photo30 from '../images/photo30.png';
+import photo31 from '../images/photo31.png';
+import photo32 from '../images/photo32.png';
+import photo33 from '../images/photo33.png';
+import photo34 from '../images/photo34.png';
+import photo35 from '../images/photo35.png';
+import photo36 from '../images/photo36.png';
+import photo37 from '../images/photo37.png';
+import photo38 from '../images/photo38.png';
+import photo39 from '../images/photo39.png';
+import photo40 from '../images/photo40.png';
 
 const images = [
   photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9, photo10,
-//   photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20,
-//   photo21, photo22, photo23, photo24, photo25, photo26, photo27, photo28, photo29, photo30,
-//   photo31, photo32, photo33, photo34, photo35, photo36, photo37, photo38, photo39, photo40
+  photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20,
+   photo21, photo22, photo23, photo24, photo25, photo26, photo27, photo28, photo29, photo30,
+   photo31, photo32, photo33, photo34, photo35, photo36, photo37, photo38, photo39, photo40
 ];
 const dates = Array.from({ length: 40 }, (_, i) => `02/${(i+4).toString().padStart(2, '0')}/2024`);
 const quotes = Array.from({ length: 40 }, (_, i) => `Memory ${i+1} – Every moment with you is special ❤️`);
