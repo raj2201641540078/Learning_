@@ -1,0 +1,81 @@
+/* Propose Day floating image cards */
+.propose-image-cards {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+	z-index: 3;
+}
+.propose-image-card {
+	background: #fff0f6;
+	color: #d72660;
+	font-size: 1.1rem;
+	font-weight: 500;
+	padding: 0.7rem 1.2rem 1.2rem 1.2rem;
+	border-radius: 1.2rem;
+	box-shadow: 0 4px 24px rgba(215, 38, 96, 0.15);
+	transition: transform 0.3s, box-shadow 0.3s;
+	max-width: 220px;
+	text-align: center;
+	pointer-events: auto;
+	cursor: pointer;
+	user-select: none;
+	border: 2px solid #d72660;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.propose-img-thumb {
+	width: 90px;
+	height: 90px;
+	object-fit: cover;
+	border-radius: 1rem;
+	margin-bottom: 0.7rem;
+	border: 2px solid #d72660;
+}
+.propose-img-quote {
+	color: #d72660;
+	font-size: 1rem;
+	font-weight: 500;
+	margin-top: 0.2rem;
+}
+.propose-popup-img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 1.2rem;
+	margin-bottom: 1.2rem;
+	border: 2px solid #d72660;
+	box-shadow: 0 4px 24px rgba(215, 38, 96, 0.15);
+}
+/* Rose Day floating quote cards */
+.rose-quote-cards {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+	z-index: 3;
+}
+.rose-quote-card {
+	background: #fff0f6;
+	color: #d72660;
+	font-size: 1.1rem;
+	font-weight: 500;
+	padding: 1.1rem 1.7rem;
+	border-radius: 1.2rem;
+	box-shadow: 0 4px 24px rgba(215, 38, 96, 0.15);
+	transition: transform 0.3s, box-shadow 0.3s;
+	max-width: 260px;
+	text-align: center;
+	pointer-events: auto;
+	cursor: pointer;
+	user-select: none;
+	border: 2px solid #d72660;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
